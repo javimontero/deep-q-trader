@@ -1,0 +1,8 @@
+config:
+    tnt_filename: results_tnt.pk
+    run_filename: results_train.pk
+    steps_filename: steps.pk
+    startDate: 2018-07-01 0:10:0
+    endDate: 2018-07-31 23:59:00
+    episodes: 5
+
