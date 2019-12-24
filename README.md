@@ -8,9 +8,9 @@ Reinforcement learning is an important type of Machine Learning technique where 
 We designed our study to be asset agnostic as it can be used with any market or commodity like FX, stocks, indexed futures, . . . We have used, just for convenience, the **Bitcoin/US dollar Perpetual Inverse Swap Contract (XBTUSD)** traded in the BitMEX market.
 
 ## Datasets
-**OHLCV dataset** contains classical Open, High, Low, Close, and Volume data.
+**OHLCV dataset** contains classical Open, High, Low, Close, and Volume data. This dataset is available from [BitMEX](https://bitmex.com) exchange itself.
 
-**Order Book** dataset contains features like depth, volume, weighted spread, and slope. The 'slope' feature is calculated according to [Naes and Skjeltorp 2004]
+**Order Book** dataset contains features like depth, volume, weighted spread, and slope. The 'slope' feature is calculated according to [Naes and Skjeltorp 2004]. XBTUSD **order book historical** dataset can be ordered from [algorithmic.ch](https://algorithmic.ch/).
 
 ## Test strategies
 We created two strategies to test the reinforcement learning trading algorithm developed, the **look-forward** one, that slices the data in consecutive train and test sets and the **online** one, resembling real-time trading, were the training takes place at the same time as the acting.
